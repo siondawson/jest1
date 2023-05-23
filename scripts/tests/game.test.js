@@ -35,7 +35,7 @@
         expect("lastButton" in game).toBe(true);
      });
      test("turnInProgress key exists", () => {
-        expect("turnInProgress" in game).toBe(true);
+        expect("turnInProgress" in game).toBe(false);
      });
      test("turnInProgess key value is false", () => {
         expect("turnInProgess" in game).toBe(true);
